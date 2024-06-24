@@ -4,5 +4,6 @@
   - name: get from args
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
-      # pass variables as argumetns while excuting as -e PERSON=Ramesh WHISHES=Morning
+      # pass variables as argumetns while excuting as -e "PERSON=Ramesh WHISHES=Morning"
+      # or -e PERSON=Ramesh -e WISHES=Morning
       
