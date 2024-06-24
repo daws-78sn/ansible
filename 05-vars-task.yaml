@@ -10,7 +10,7 @@
         Course: "DevOps"
       ansible.builtin.debug:
         msg: "Hi, we are learing {{Course}} from trainer {{Trainer}},Duration is {{Duration}}"
-  - name: print information
-    ansible.builtin.debug:
-      msg: "Hi, we are learning{{Course}} from trainer {{Trainer}}, duration is {{Duration}}."
+- name: print information
+  ansible.builtin.debug:
+    msg: "Hi, we are learning{{Course}} from trainer {{Trainer}}, duration is {{Duration}}."
       #inheritance and overriding concepts used here
