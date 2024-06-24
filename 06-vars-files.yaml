@@ -1,0 +1,9 @@
+- name: variables from files # if we have 100 varaibles
+  hosts: localhost
+  vars_files:
+  - vars.yaml
+  tasks:
+  - name: print override information
+    ansible.builtin.debug:
+      msg:"Hi, We are learing {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
+      
